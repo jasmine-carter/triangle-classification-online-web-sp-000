@@ -31,8 +31,8 @@ class Triangle
           :equilateral
       elsif sides.uniq.count == 2
           :isosceles
-        else
-          :scalene
+      else
+        :scalene
       end
     end
   end
